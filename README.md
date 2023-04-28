@@ -1,2 +1,0 @@
-# Calculadora
- Exercício da aula
