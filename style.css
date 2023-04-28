@@ -1,3 +1,61 @@
-* {
-    border: 1px solid red;
+header{
+    background-color: #f9c4b794;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #350000c4;
+    font-size: 45px;
 }
+
+body {
+    border: 2px;
+    background-color: #eee1de94;
+    text-align: center;
+    
+}
+
+.texto{
+    color: #5f1d189a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+
+  
+}
+
+*{
+  justify-content: center;
+}
+
+    .botone{
+        background-color: #d494849f;
+        font-size: 20px;
+        font-family: 'inter';
+        font-weight: lighter;
+        height: 40px;
+        width: 200px;
+      
+    }
+
+    #peso{
+        background-color: #ffffff ;
+        height: 35px;
+        width: 500px;
+       
+    }
+   
+    #altura{
+        background-color: #ffffff ;
+        height: 35px;
+        width: 500px;
+    }
+   
+    #resultado{
+        color: #b55a4a;
+        
+    }

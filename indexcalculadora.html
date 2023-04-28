@@ -11,7 +11,8 @@
 </head>
 
 <body>
-    <div>
+    <div class="texto">
+        <header>Calculadora IMC (Índice de Massa Corporal)</header>
         <h3 id="descExercício">
             Resultado abaixo de 17 - Muito abaixo do peso;<br>
             Resultado entre 17 e 18,49 - Abaixo do peso;<br>
@@ -19,21 +20,28 @@
             Resultado entre 25 e 29,99 - Sobrepeso;<br>
             Resultado entre 30 e 34,9 - Obesidade garu I;<br>
             Resultado entre 35 e 39,9 - Obesidade grau II (severa);<br>
-            Resultado acima de 40 - Obesidade grau III (mórbida);<br>
+            Resultado acima de 40 - Obesidade grau III (mórbida);<br><br><br><br>
+            <br>
         </h3>
     </div>
 
+    <div class="botao">
     <form onsubmit="return calcular(event)">
         <label>Digite seu peso:</label><br><br>
-        <input type="text" nome="peso" id="peso" placeholder="Exemplo: 65" /><br><br>
+        <input  type="text" nome="peso" id="peso" placeholder="Exemplo: 65" /><br><br>
 
-        <label>Digite sua altura:</label>
+        <label>Digite sua altura:</label><br><br>
         <input type="text" nome="altura" id="altura" placeholder="Exemplo: 1.90" /><br><br>
 
-        <input type="submit" value="Calcular IMC" />
+
+        <input class="botone" type="submit" value="Calcular IMC" />
+    
     </form>
+    <br>
     <div id="resultado"></div>
-    <script scr="imc.js"></script>
+    <script src="imc.js"></script>
+
+</div>
 
 </body>
 
